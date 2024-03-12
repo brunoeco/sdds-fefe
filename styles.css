@@ -25,7 +25,7 @@ h2 {
   color: #ff4081; /* Rosa */
   margin-top: 20px;
 }
-
+/* 
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -33,4 +33,4 @@ h2 {
   100% {
     transform: scale(1.05);
   }
-}
+} */
