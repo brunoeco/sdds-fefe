@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f); /* Degradê laranja */
+}
+
+.container {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ff4081; /* Rosa */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+  border-radius: 20px; /* Bordas arredondadas */
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+  animation: pulse 2s infinite alternate; /* Efeito de pulsação */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff4081; /* Rosa */
+  margin-top: 20px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
